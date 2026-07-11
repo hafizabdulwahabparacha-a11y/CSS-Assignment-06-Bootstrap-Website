@@ -1,0 +1,20 @@
+/* Newsletter Background Variable Fix */
+.bg-dark-custom {
+  background-color: #2b2c3a;
+  border-radius: 14px;
+  padding: 40px;
+}
+
+/* Image handling configuration */
+.card-outline img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Equal height for grid columns */
+.card-outline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
